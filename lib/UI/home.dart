@@ -137,7 +137,7 @@ class _HomeState extends State<Home> {
           Text(
             weightRange,
             style: TextStyle(
-                color: bmi >= 30 ? Colors.red : Colors.green,
+                color: bmi >= 30 ? Colors.redAccent : Colors.green,
                 fontSize: 20.0,
                 fontWeight: FontWeight.w600),
           ),
